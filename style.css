@@ -44,7 +44,7 @@ body {
             }
 
             p {
-                color:#E5E7E8;
+                color:#9b9a9a;
             }
 
             button {
@@ -58,7 +58,6 @@ body {
             #fail {
                 background-color:gray;
                 color:#E5E7E8;
-                /* display:flex; */
                 width:500px;
                 height:200px;
             }
@@ -88,7 +87,7 @@ body {
         .groupOfImages {
             display: flex;
             gap: 40px;
-
+            padding-bottom: 80px;
         }
 
         .four {
@@ -99,3 +98,26 @@ body {
             width:150px;
             height: 150px;
         }
+
+    
+        .sec3 {
+            background-color: #E5E7E8;
+            padding: 85px 275px;
+        }
+
+            #quote {
+                font-size: 36px;
+                font-style: italic;
+                font-weight: lighter;
+                color: #1F2937;
+            }
+
+            #thor {
+                display: flex;
+                font-size: 22px;
+                font-weight: bold;
+                justify-content: flex-end;
+            }
+
+        
+

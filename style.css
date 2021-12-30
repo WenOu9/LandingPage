@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        background-color: #1F2937;
+        padding: 20px 150px;
+        color:#F9FAF8;
+    }
+
+        .heading {
+            display: flex;
+        }
+
+        a {
+            font-size: 18px;
+            color: #E5E7E8;
+            margin-left: 30px;
+        }
+
+            #headLogo {
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            #lefta {
+                margin-left: auto;
+            }
+
+        .below {
+            padding: 100px 0px;
+            color:#F9FAF8;
+            display:flex;
+            gap:90px;
+        }
+
+            #awesome {
+                font-size: 48px;
+                font-weight: bolder;
+            }
+
+            p {
+                color:#E5E7E8;
+            }
+
+            button {
+                border-width: 0;
+                border-radius: 6px;
+                background-color:#3882F6;
+                color:#F9FAF8;
+                padding: 5px 25px;
+            }
+
+            #fail {
+                background-color:gray;
+                color:#E5E7E8;
+                /* display:flex; */
+                width:500px;
+                height:200px;
+            }
+
+            img[alt] {
+                display: flex;
+                align-items: center;
+                justify-items: center;
+            }
+
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 0px 250px;
+        align-items: center;
+    }
+
+        #random {
+            font-size: 36px;
+            font-weight: bolder;
+            color: #1F2937;
+            display: flex;
+            padding: 40px 0px;
+        }
+
+        .groupOfImages {
+            display: flex;
+            gap: 40px;
+
+        }
+
+        .four {
+            border-width: 5px;
+            border-radius: 15px;
+            border-color: #3882F6;
+            border-style:solid;
+            width:150px;
+            height: 150px;
+        }
